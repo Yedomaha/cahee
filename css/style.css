@@ -161,7 +161,7 @@ header{
 	list-style: none;
 	margin: 180px 0 180px 100px;
 	display: inline-block;
-	width: 400px;
+	width: 35%;
 	height: 460px;
 	letter-spacing : -.36em;
 }
@@ -215,14 +215,13 @@ header{
 	height: 525px;
 	width: 40%;
 	position: relative;
-	margin: 100px 0 0 200px;
+	margin: 100px 0 0 16%;
 }
 
 .services_caption-text{
 	font-weight: 700;
 	font-size: 90px;
 	position: absolute;
-	width: 600px;
 	top: 210px;
 	left: -82px;
 	color: #fff;
@@ -250,19 +249,23 @@ header{
 }
 
 .gallery_photoitem1{
-	width: 770px; 
+	width: 65%; 
 	display: inline-block;
 }
 
 .gallery_photoitem2{
-	width: 370px; 
+	width: 31%; 
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 40px;
 }
 
+.gallery_photoitem1 img, .gallery_photoitem2 img, .gallery_photoitem3 img{
+	width: 100%;
+}
+
 .gallery_photoitem3{
-	width: 570px; 
+	width: 48%; 
 	display: inline-block;
 }
 
